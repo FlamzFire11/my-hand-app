@@ -13,3 +13,5 @@ If you are developing a production application, we recommend using TypeScript wi
 Made by yours truly with the help of vite and react
 
 **P.S.** if the camera does not activate please refresh the page and be patient.. Thank you!
+
+**P.p.S.** Ai was also only used in helping me fix some bugs and learn mediapipe with react and vite.. ( i would say about 6-7 ty persent of the whole project) 

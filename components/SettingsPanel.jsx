@@ -15,14 +15,14 @@ export default function SettingsPanel({ cameras, selectedCamera, onCameraChange,
         <input type="range" min={1} max={5} value={options.maxHands} onChange={e => onOptionsChange({...options, maxHands: parseInt(e.target.value)})} />
       </div>
 
-      <div>
+      {/* <div>
         <label>Model Complexity: {options.modelComplexity}</label>
         <select value={options.modelComplexity} onChange={e => onOptionsChange({...options, modelComplexity: parseInt(e.target.value)})}>
           <option value={0}>0 (fast)</option>
           <option value={1}>1</option>
           <option value={2}>2 (accurate)</option>
         </select>
-      </div>
+      </div> */}
 
       <div>
         <label>Detection Confidence: {options.minDetectionConfidence}</label>
